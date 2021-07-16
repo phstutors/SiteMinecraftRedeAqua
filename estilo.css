@@ -1,0 +1,221 @@
+body{
+    background-color: #DCDCDC;
+    font-family: Arial, Verdana, sans-serif;
+    width: 800px;
+    height: 850px;
+}
+div.nota1{
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 280px;
+    height: 200px;
+    width: 800px;
+    border-radius: 12px;
+}
+i, input{
+    display: inline-block;
+}
+h2{
+    position: relative;
+    top: 5px;
+    left: 480px;
+}
+input{
+    width: 41px;
+    height: 18px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+div.linha1{
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+div.linha2{
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+div.linha3{
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+div.linha4{
+    position: relative;
+    top:60px;
+    left: 60px;
+}
+a.calcular{
+    position: relative;
+    left: 46px;
+    background-color: #32CD32;
+    text-decoration: none;
+    color: white;
+    padding: 2px 34px 2px 30px;
+    border-radius: 5px;
+}
+span.texto{
+    margin-left: 25px;
+
+}
+span{
+    font-weight: bold;
+}
+a.limpar{
+    position: absolute;
+    left: 540px;
+    top: 45px;
+    background-color: #4169E1;
+    text-decoration: none;
+    color: white;
+    padding: 2px 37px 2px 37px;
+    border-radius: 5px;
+    text-align: center;
+}
+span.notaSSA{
+    color: red;
+    font-weight: bold;
+}
+a.mediag{
+    background-color: #006400;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 23px 15px 23px;
+    border-radius: 6px;
+    position: relative;
+    top: 50px;
+    left: 380px;
+}
+input.mediageral{
+    position: relative;
+    top: 45px;
+    left: 420px;
+    width: 50px;
+    height: 30px;
+}
+span.mediageral{
+    position: relative;
+    color: red;
+    font-weight: bold;
+    top:50px;
+    left: 410px;
+}
+@media  screen and (max-width: 733px) {
+    body{
+    background-color: #DCDCDC;
+    font-family: Arial, Verdana, sans-serif;
+    width: 100px;
+    height: 850px;
+    margin:0;
+}
+div.nota1{
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 00px;
+    height: 200px;
+    width: 480px;
+    border-radius: 12px;
+}
+i, input{
+    display: inline-block;
+}
+div.titulo{
+    width: 380px;
+}
+h2{
+    position: relative;
+    top: 20px;
+    left:80px;
+
+}
+input{
+    width: 41px;
+    height: 18px;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+div.linha1{
+    position: relative;
+    top: 30px;
+    left: 00px;
+}
+div.linha2{
+    position: relative;
+    top: 40px;
+    left: 00px;
+}
+div.linha3{
+    position: relative;
+    top: 50px;
+    left: 00px;
+}
+div.linha4{
+    position: relative;
+    top:60px;
+    left: 00px;
+}
+a.calcular{
+    position: absolute;
+    left: 50px;
+    top:105px;
+    background-color: #32CD32;
+    text-decoration: none;
+    color: white;
+    padding: 2px 34px 2px 30px;
+    border-radius: 5px;
+}
+span.texto{
+    margin-left: 25px;
+
+}
+span{
+    font-weight: bold;
+}
+a.limpar{
+    position: absolute;
+    left:300px;
+    top: 105px;
+    background-color: #4169E1;
+    text-decoration: none;
+    color: white;
+    padding: 2px 37px 2px 37px;
+    border-radius: 5px;
+    text-align: center;
+}
+span.notaSSA{
+    color: red;
+    font-weight: bold;
+}
+a.mediag{
+    background-color: #006400;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 23px 15px 23px;
+    border-radius: 6px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+input.mediageral{
+    position: relative;
+    top: 45px;
+    left: 40px;
+    width: 50px;
+    height: 30px;
+}
+span.mediageral{
+    position: relative;
+    color: red;
+    font-weight: bold;
+    top:50px;
+    left: 30px;
+}
+div.mediag{
+    width:380px;
+}
+}

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Rubik:wght@400;800&display=swap');
+    a{
+        text-decoration: none;
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        }
+        img.logo{
+    border-radius: 50%;
+}
+    .buttonVip{
+        padding: 15px 35px 15px 30px;
+        position: relative;
+        width: 100px;
+        top: 130px;
+        left: 640px;
+        border:3px solid #0000CD;
+        border-radius: 15px;
+}
+div.card-deck{
+    position: relative;
+    top: 50px;
+}
+#btn1{
+    position: relative;
+    left: 145px;
+}
+.divitexto{
+    width:900px;
+    position: relative;
+    left: 150px;
+}
+.img1{
+    width: 50%;
+    height: 400px;
+    position: relative;
+    top: 20px;
+    left: 170px;
+    border-radius: 10%;
+}
+.texto1{
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    top: 40px;
+    text-align: justify;
+}
+    body{
+        background-color: black;
+        color: black;
+}
+  .buttonVip:hover{
+        border: 0px solid;
+}
+footer{
+  position: relative;
+  top: 120px;
+}
+
+.buttonVip:hover::before{
+     content: "";
+     position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    animation: anima 1s infinite;
+}
+@keyframes anima{
+25%{
+border-left: 5px solid #0000CD;
+}
+50%{
+border-top: 5px solid #0000CD ;
+}
+75%{
+border-right: 5px solid #0000CD;
+}
+100%{
+border-bottom: 5px solid #0000CD ;
+}
+}
+@media  screen and (max-width: 733px) {
+    div.buttonVip{
+padding: 15px 35px 15px 30px;
+position: relative;
+width: 100px;
+top: 200px;
+left: 200px;
+}
+.img1{
+    width: 70%;
+    height: 200px;
+    position: relative;
+    top: 20px;
+    left: 70px;
+    border-radius: 10%;
+}
+#logo{
+  position: absolute;
+  top:45px;
+  left: 170px;
+}
+#logo3{
+  position: absolute;
+  top:95px;
+  left: 170px;
+}
+#logo4{
+  position: absolute;
+  top:145px;
+  left: 170px;
+}
+#logo5{
+  position: absolute;
+  top:190px;
+  left: 120px;
+}
+.texto1{
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    top: 40px;
+    text-align: justify;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.divitexto{
+    width: 100%;
+    position: relative;
+    left: 0px;
+}
+footer{
+  position: relative;
+  top: 120px;
+}
+
+}
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="inicio.html">
+      <img src="RedeAqua.jpeg" style="border-radius: 50%;" width="30" height="30" class="d-inline-block align-top" alt="" id="logo2">
+        RedeAqua
+      </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <img src="home.svg" style="border-radius: 50%;" width="30" height="40" class="d-inline-block align-top" alt="" id="logo">
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="inicio.html">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <img src="shop.svg" style="border-radius: 50%;" width="30" height="40" class="d-inline-block align-top" alt="" id="logo3">
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="loja.html">Loja</a>
+          </li>
+          <li class="nav-item">
+            <img src="gamepad.svg" style="border-radius: 50%;" width="30" height="40" class="d-inline-block align-top" alt="" id="logo4">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="ip()">IP</a>
+          </li>
+          <li class="nav-item">
+            <img src="social.svg" style="border-radius: 50%;" width="30" height="40" class="d-inline-block align-top" alt="" id="logo5">
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://linktr.ee/redeaqua" target="_blank">Redes Sociais</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="E3efaCjXoAEqubw.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Vip Butterfly</h5>
+            <p class="card-text">Vem com armadura e bla bla bla</p>
+            <a href="#" class="btn btn-success" role="button" aria-pressed="true" id="btn1">Comprar</a>
+            <p class="card-text"><small class="text-muted">RedeAqua 2021</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="sla.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Vip Astronauta</h5>
+            <p class="card-text">Vem com armadura e bla bla bla</p>
+            <a href="#" class="btn btn-success" role="button" aria-pressed="true" id="btn1">Comprar</a>
+            <p class="card-text"><small class="text-muted">RedeAqua 2021</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="E55CHa9X0AEdIwH.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Vip Viadoe</h5>
+            <p class="card-text">Vem com armadura e bla bla bla</p>
+            <a href="#" class="btn btn-success" role="button" aria-pressed="true" id="btn1">Comprar</a>
+                        <p class="card-text"><small class="text-muted">RedeAqua 2021</small></p>
+          </div>
+        </div>
+      </div>
+    <script>
+        function ip(){
+            window.confirm("IP: RedeAqua.ultrahostbr.xyz\n25556")
+        }
+    </script>
+            <footer class="text-center text-white" style="background-color: #f1f1f1;">
+
+              <div class="container pt-4">
+       
+                <section class="mb-4">
+      
+                  <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="fab fa-facebook-f"><img src="facebook.svg" style="width: 32px;"></i
+                  ></a>
+            
+                  <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="light"
+                    ><img src="twitter.svg" style="width: 32px;"><i class="fab fa-twitter"></i
+                  ></a>
+            
+                  <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><img src="google.svg" style="width: 32px;"><i class="fab fa-google"></i
+                  ></a>
+            
+                  <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><img src="instagram.svg" style="width: 32px;"><i class="fab fa-instagram"></i
+                  ></a>
+            
+                  <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><img src="linkedin.svg" style="width: 32px;"><i class="fab fa-linkedin"></i
+                  ></a>
+      
+                  <a
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="#!"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><img src="github.svg" style="width: 32px;"><i class="fab fa-github"></i
+                  ></a>
+                </section>
+              </div>
+              <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2021 Copyright:
+                <a class="text-dark" href="https://twitter.com/PhsTutorsOfc">RedeAqua ( Site By PhsTutors)</a>
+              </div>
+            </footer>
+</body>
+</html>
